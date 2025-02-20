@@ -27,3 +27,15 @@ $resend->emails->send([
   'subject' => 'Layout 1',
   'html' => $html,
 ]);
+
+
+$resend = Resend::client('re_UfWX4xyM_NQ1GTNqaQdV65f6Qf36izBst');
+
+
+
+$resend->emails->send([
+  'from' => 'Prueba newsletter <onboarding@resend.dev>',
+  'to' => ['manueldelavega@zohomail.com'],
+  'subject' => 'Layout 1',
+  'html' => $html,
+]);
