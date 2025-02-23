@@ -2,10 +2,12 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-$resend = Resend::client('re_UsygUmVi_GheKN2ftXywfTZzgZD3yW7W9');
 
-$archivo = 'layout/layout-1.html'; // Ruta del archivo HTML
+$archivo = 'components/titulo-1.html'; // Ruta del archivo HTML
 $html = file_get_contents($archivo);
+
+/*
+$resend = Resend::client('re_UsygUmVi_GheKN2ftXywfTZzgZD3yW7W9');
 
 $resend->emails->send([
   'from' => 'Prueba newsletter <onboarding@resend.dev>',
@@ -15,11 +17,7 @@ $resend->emails->send([
 ]);
 
 
-
-
 $resend = Resend::client('re_j2dFbUDt_749pkq311teSq2ioUCY212Q7');
-
-
 
 $resend->emails->send([
   'from' => 'Prueba newsletter <onboarding@resend.dev>',
@@ -27,11 +25,9 @@ $resend->emails->send([
   'subject' => 'Layout 1',
   'html' => $html,
 ]);
-
+*/
 
 $resend = Resend::client('re_UfWX4xyM_NQ1GTNqaQdV65f6Qf36izBst');
-
-
 
 $resend->emails->send([
   'from' => 'Prueba newsletter <onboarding@resend.dev>',
