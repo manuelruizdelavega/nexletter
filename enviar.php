@@ -3,10 +3,10 @@
 require __DIR__ . '/vendor/autoload.php';
 
 
-$archivo = 'components/titulo-1.html'; // Ruta del archivo HTML
+$archivo = 'email/17155-newsletter-zuvami.html'; // Ruta del archivo HTML
 $html = file_get_contents($archivo);
 
-/*
+
 $resend = Resend::client('re_UsygUmVi_GheKN2ftXywfTZzgZD3yW7W9');
 
 $resend->emails->send([
@@ -25,7 +25,7 @@ $resend->emails->send([
   'subject' => 'Layout 1',
   'html' => $html,
 ]);
-*/
+
 
 $resend = Resend::client('re_UfWX4xyM_NQ1GTNqaQdV65f6Qf36izBst');
 
