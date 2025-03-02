@@ -3,7 +3,7 @@
 require __DIR__ . '/vendor/autoload.php';
 
 
-$archivo = 'email/17155-newsletter-zuvami.html'; // Ruta del archivo HTML
+$archivo = 'email/17129-factura.html'; // Ruta del archivo HTML
 $html = file_get_contents($archivo);
 
 
