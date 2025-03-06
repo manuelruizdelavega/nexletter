@@ -37,8 +37,40 @@
             font-size: 0px;
         }
         /*fin layout-1*/
-        @media only screen and (max-width: 512px) {
+        /*inicio titulo-2*/
+        .nl-titulo-2{
+            padding-left: 52px;
+            padding-right: 52px;
+        }
 
+        .nl-titulo-2 h2{
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        .nl-titulo-2 h3{
+            font-size: 32px;
+            line-height: 40px;
+        }
+        /*fin titulo-2*/
+        @media only screen and (max-width: 512px) {
+            /*inicio titulo-2*/
+            .nl-titulo-2{
+                padding-left: 15px;
+                padding-right: 15px;
+                
+            }
+
+            .nl-titulo-2 h2{
+                font-size: 20px;
+                line-height: 28px;
+            }
+
+            .nl-titulo-2 h3{
+                font-size: 24px;
+                line-height: 32px;
+            }
+            /*fin titulo-2*/
         }
     </style>
 
@@ -58,15 +90,16 @@
 </head>
 <body style="background: #f1f1f1; margin: 0px">
     <!--[if (lte mso 17)]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0; font-size: 0px;" width="600"><tr><td><![endif]-->      
-        <!--Sección de ejemplo-->
+        <!--inicio titulo-2-->
         <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px; background: #FFFFFF; font-size: 0px;">
             <tr>
-                <td style="padding: 15px;">
-                    <p style="font-size: 14px; margin: 0;">Aquí contenido...</p>
+                <td class="nl-titulo-2" style="background: #ffffff;padding-top: 16px;padding-bottom: 16px;text-align: center;">
+                    <h2 class="nl-mso-fuente" style="color: #161615; margin: 0px;font-family: 'Poppins', Helvetica, sans-serif; font-weight: 600;mso-line-height-rule: exactly;font-style: italic;">Inovação?</h2>
+                    <h3 class="nl-mso-fuente" style="color: #593088; margin: 0px;font-family: 'Poppins', Helvetica, sans-serif; font-weight: 700;mso-line-height-rule: exactly;">Nós temos!</h3>
                 </td>
             </tr>
-        </table> 
-        <!--Sección de ejemplo-->                               
+        </table>
+        <!--fin titulo-2-->                           
     <!--[if (lte mso 17)]></td></tr></table><![endif]-->
 </body>
 </html>

@@ -3,7 +3,7 @@
 require __DIR__ . '/vendor/autoload.php';
 
 
-$archivo = 'email/17129-factura.html'; // Ruta del archivo HTML
+$archivo = 'email/17304-incubaforum-2025-br.html'; // Ruta del archivo HTML
 $html = file_get_contents($archivo);
 
 
@@ -35,3 +35,11 @@ $resend->emails->send([
   'subject' => 'Layout 1',
   'html' => $html,
 ]);
+
+
+
+                                      
+
+                                      
+
+                                      
