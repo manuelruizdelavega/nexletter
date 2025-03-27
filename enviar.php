@@ -3,7 +3,7 @@
 require __DIR__ . '/vendor/autoload.php';
 
 
-$archivo = 'email/17153-tabelas-nutribr.html'; // Ruta del archivo HTML
+$archivo = 'email/17582-revista-digital-avinews-latam-marzo-2025.html'; // Ruta del archivo HTML
 $html = file_get_contents($archivo);
 
 
